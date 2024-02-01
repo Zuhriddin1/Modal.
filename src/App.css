@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+  background-color: blue;
+}
+dialog {
+  color: #fff;
+  background: #000;
+  border-radius: 10px;
+}
+#bth {
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+}
+dialog::backdrop {
+  background: rgba(165, 165, 165, 0.543);
+}
